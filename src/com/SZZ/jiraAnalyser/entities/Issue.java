@@ -1,7 +1,7 @@
 package  com.SZZ.jiraAnalyser.entities;
 
 
-import java.util.List;
+import java.util.Set;
 
 /*
  * This object is a representation of a Bug in Jira. 
@@ -41,16 +41,18 @@ public class Issue {
 	private  String assignedTo;
 	private  long open;
 	private  long close;
-	private  List<String> attachments;
-	private  List<String> comments;
+	private  Set<String> attachments;
+	private  String comments;
 	private  String title;
 	private String type;
+	private Set<String> brokenBy;
+	private String description;
 	
 	
 	public Issue(
 			long id,String title,Status status,
 			Resolution resolution, String assignedTo,
-			long open,long close,List<String> attachments ,List<String> comments, String type) {
+			long open,long close,Set<String> attachments ,String comments, String type, Set<String> brokenBy, String description) {
 		this.id = id;
 		this.status = status;
 		this.resolution = resolution;
@@ -61,6 +63,8 @@ public class Issue {
 		this.comments = comments;
 		this.attachments = attachments;
 		this.type = type;
+		this.brokenBy = brokenBy;
+		this.description = description;
 	}
 	
 	public long getId(){
@@ -91,15 +95,22 @@ public class Issue {
 		return this.close;
 	}
 	
-	public List<String> getComments(){
+	public String getComments(){
 		return this.comments;
 	}
-	public List<String> getAttachments(){
+	public Set<String> getAttachments(){
 		return this.attachments;
 	}
 	
 	public String getTitle(){
 		return this.title;
+	}
+
+	public Set<String> getBrokenBy(){
+		return this.brokenBy;
+	}
+	public String getDescription(){
+		return this.description;
 	}
 	
 	@Override

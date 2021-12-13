@@ -4,19 +4,11 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.*;
 
+import gr.uom.java.xmi.diff.CodeRange;
 import org.eclipse.jgit.revwalk.RevCommit;
 
- import  com.SZZ.jiraAnalyser.entities.*;
 import com.SZZ.jiraAnalyser.entities.Issue.Resolution;
 import com.SZZ.jiraAnalyser.entities.Transaction.FileInfo;
 import  com.SZZ.jiraAnalyser.git.*;
@@ -34,7 +26,7 @@ public class Link {
 	private int semanticConfidence = 0;
 
 	private List<Suspect> suspects = new LinkedList<Suspect>();
-	
+
 
 
 	/**
@@ -43,8 +35,8 @@ public class Link {
 	 * with the bug
 	 * 
 	 * @param t
-	 * @param b
 	 * @param number
+	 * @param projectName
 	 */
 	public Link(Transaction t, long number, String projectName) {
 		this.transaction = t;
@@ -67,7 +59,7 @@ public class Link {
 	private void setSyntacticConfidence() {
 		if (isBugInJira())
 			this.syntacticConfidence++;
-		if (containsKeywords())
+		if (LinkUtils.containsKeywords(transaction.getComment()))
 			this.syntacticConfidence++;
 	}
 
@@ -88,34 +80,10 @@ public class Link {
 				this.semanticConfidence++;
 			// The short description of the bug report b is contained in the log
 			// message of the transaction t
-			String e = longestCommonSubstrings(transaction.getComment().toLowerCase(), issue.getTitle().toLowerCase());
+			String e = LinkUtils.longestCommonSubstrings(transaction.getComment().toLowerCase(), issue.getTitle().toLowerCase());
 			if (e.length() > 20)
 				this.semanticConfidence++;
 		}
-	}
-
-	public static String longestCommonSubstrings(String s, String t) {
-		int[][] table = new int[s.length()][t.length()];
-		int longest = 0;
-		Set<String> result = new HashSet<>();
-
-		for (int i = 0; i < s.length(); i++) {
-			for (int j = 0; j < t.length(); j++) {
-				if (s.charAt(i) != t.charAt(j)) {
-					continue;
-				}
-
-				table[i][j] = (i == 0 || j == 0) ? 1 : 1 + table[i - 1][j - 1];
-				if (table[i][j] > longest) {
-					longest = table[i][j];
-					result.clear();
-				}
-				if (table[i][j] == longest) {
-					result.add(s.substring(i - longest + 1, i + 1));
-				}
-			}
-		}
-		return result.toString();
 	}
 
 	/**
@@ -126,7 +94,7 @@ public class Link {
 	 */
 	private boolean checkAttachments() {
 		List<FileInfo> tFiles = transaction.getFiles();
-		List<String> bugFiles = issue.getAttachments();
+		Set<String> bugFiles = issue.getAttachments();
 
 		for (FileInfo f : tFiles) {
 			File p = new File(f.filename);
@@ -164,12 +132,8 @@ public class Link {
 	 * @return true false
 	 */
 	private boolean isBugInJira() {
-		boolean result = false;
-		if (issue == null)
-			return false;
-		else
-			result = true;
-		return result;
+		if (issue == null) return false;
+		return true;
 	}
 
 	/**
@@ -188,52 +152,25 @@ public class Link {
 				sCurrentLine = sCurrentLine.replaceAll("\"", "");
 				if (sCurrentLine.startsWith(projectName + "-" + number)) {
 					String[] s = sCurrentLine.split(";");
-					List<String> comments = new LinkedList<String>();
-					List<String> attachments = Arrays.asList(s[7].replace("[", "").replace("]", ""));
-					int i = 8;
-					while (i < s.length) {
-						comments.add(s[i]);
-						i++;
-					}
-					Issue.Status status = Issue.Status.UNCONFIRMED;
-					Resolution resolution = Resolution.NONE;
-					
-					try{
-						Issue.Status.valueOf(s[3].toUpperCase());
-					}
-					catch(Exception e){
-						status = Issue.Status.UNCONFIRMED;
-					}
-					
-					try{
-						Resolution.valueOf(s[2].toUpperCase().replace(" ", "").replace("'", ""));
-					}
-					catch(Exception e){
-						 resolution = Resolution.NONE;
-					}
-					
-					issue = new Issue(number, s[1], status,resolution, s[4],
-							Long.parseLong(s[5]), Long.parseLong(s[6]),attachments, comments,s[7]);
+					String title = s[1];
+					Resolution resolution = LinkUtils.getResolutionFromString(s[2]);
+					Issue.Status status = LinkUtils.getStatusFromString(s[3]);
+					String assignee = s[4];
+					Long createdDate = Long.parseLong(s[5]);
+					Long resolvedDate = Long.parseLong(s[6]);
+					String type = s[7];
+					Set<String> attachments = LinkUtils.stringToSet(s[8]);
+					Set<String> brokenBy = LinkUtils.stringToSet(s[9]);
+					String description = s[10].substring(1,s[10].length()-1);
+					String comments = s[11].substring(1,s[11].length()-1);
+
+					issue = new Issue(number, title, status, resolution, assignee, createdDate, resolvedDate, attachments, comments, type, brokenBy, description);
 					break;
 				}
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}
-
-	private boolean containsKeywords() {
-		String comment = transaction.getComment().toLowerCase();
-		Pattern patter1 = Pattern.compile("fix(e[ds])?|bugs?|defects?|patch", Pattern.CASE_INSENSITIVE);
-		Pattern patter2 = Pattern.compile("^[0-9]*$", Pattern.CASE_INSENSITIVE);
-		Matcher p1 = patter1.matcher(comment.toLowerCase());
-		Matcher p2 = patter2.matcher(comment);
-		boolean b1 = p1.find();
-		boolean b2 = p2.find();
-		if (b1 || b2)
-			return true;
-		else
-			return false;
 	}
 
 	public int getSyntacticConfidence() {
@@ -246,26 +183,45 @@ public class Link {
 
 	/**
 	 * For each modified file it calculates the suspect
-	 * 
+	 *
 	 * @param git
+	 * @param refactoringMiner
 	 */
-	public void calculateSuspects(Git git, PrintWriter l) {
+	public void calculateSuspects(Git git, RefactoringMiner refactoringMiner) throws Exception {
+		suspects.addAll(LinkUtils.getSuspectsByAddressedIssues(this.issue.getBrokenBy(), this.projectName + this.issue.getId(), git,"brokenBy"));
+		if (this.suspects.size() > 0) return;
+
+		suspects.addAll(LinkUtils.getSuspectsByIssueDescriptionAndComments(git, this.transaction.getId(), this.projectName, this.issue));
+		if (this.suspects.size() > 0) return;
+
+		ArrayList<CodeRange> refactoringCodeRanges = new ArrayList<>();
+		if (transaction.getFiles().stream().anyMatch(file -> LinkUtils.isJavaFile(file))) {
+			refactoringCodeRanges = refactoringMiner.getRefactoringCodeRangesForTransaction(transaction);
+		}
 		for (FileInfo fi : transaction.getFiles()) {
-			if (fi.filename.endsWith(".java")) {
-					String diff = git.getDiff(transaction.getId(), fi.filename, l);
-					if (diff == null)
-						break;
-					List<Integer> linesMinus = git.getLinesMinus(diff);
-					if (linesMinus == null)
-						return;
-					if (linesMinus.size() == 0)
-						return;
-					String previousCommit = git.getPreviousCommit(transaction.getId(), fi.filename,l);
-					if (previousCommit != null) {
-						Suspect s = getSuspect(previousCommit, git, fi.filename, linesMinus,l);
-						if (s != null)
-							this.suspects.add(s);
-					}
+			if (LinkUtils.isCodeFile(fi)) {
+//				List<Integer> linesMinus = LinkUtils.isJavaFile(fi)
+//						? LinkUtils.getLinesMinusForJavaFile(git, transaction.getId(), fi.filename, refactoringCodeRanges)
+//						: LinkUtils.getLinesMinus(git, transaction.getId(), fi.filename);
+				List<Integer> linesMinus = LinkUtils.isJavaFile(fi)
+						? LinkUtils.getLinesMinusJava(git, transaction.getId(), fi.filename, refactoringCodeRanges)
+						: LinkUtils.getLinesMinus(git, transaction.getId(), fi.filename);
+				if (linesMinus == null || linesMinus.isEmpty()) {
+					this.suspects.add(new Suspect(null, null, fi.filename, "No changed lines, only additions"));
+					continue;
+				}
+				String previousCommit = git.getPreviousCommit(transaction.getId());
+				Suspect suspect = null;
+				if (previousCommit != null) {
+					suspect = getSuspect(previousCommit, git, fi.filename, linesMinus);
+				}
+				if (suspect != null && suspect.getCommitId() != transaction.getId()) {
+					this.suspects.add(suspect);
+				} else {
+					this.suspects.add(new Suspect(null,null, fi.filename, null));
+				}
+			} else {
+				this.suspects.add(new Suspect(null,null, fi.filename, "Ignored file type"));
 			}
 		}
 	}
@@ -279,15 +235,15 @@ public class Link {
 	 * @param linesMinus
 	 * @return
 	 */
-	private Suspect getSuspect(String previous, Git git, String fileName, List<Integer> linesMinus, PrintWriter l) {
+	private Suspect getSuspect(String previous, Git git, String fileName, List<Integer> linesMinus) {
     	RevCommit closestCommit = null; 
     	long tempDifference = Long.MAX_VALUE; 
     	for (int i : linesMinus){ 
     		try{ 
     			String sha = git.getBlameAt(previous,fileName,i);
     			if (sha == null)
-    				break;
-    			RevCommit commit = git.getCommit(sha,l); 
+    				continue;
+    			RevCommit commit = git.getCommit(sha);
     			long difference =(issue.getOpen()/1000) - (commit.getCommitTime()); 
     			if (difference > 0){ 
     				if (difference < tempDifference ){
@@ -296,13 +252,10 @@ public class Link {
     				}
     			} catch (Exception e){ 
     				e.printStackTrace();
-    				l.println(e);
     			}
     	} 
-    	if (closestCommit != null){ 
-    		Long temp = Long.parseLong(closestCommit.getCommitTime()+"") * 1000; 
-    		Suspect s = new Suspect(closestCommit.getName(), new Date(temp), fileName);
-    	return s; 
+    	if (closestCommit != null){
+    		return LinkUtils.generateSuspect(closestCommit,fileName);
     	}
   
 		return null;

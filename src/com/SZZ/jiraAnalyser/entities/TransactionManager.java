@@ -43,8 +43,7 @@ public class TransactionManager {
 			
 		return transactions;
 	}
-	
-	//This is a message
+
 	public Git getGit(){
 		return this.storage.getGit();
 	}
