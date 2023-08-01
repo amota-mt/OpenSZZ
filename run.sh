@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -p cluster_long
 #SBATCH --time=100:00:00
-#SBATCH -c 4
+#SBATCH -c 1
 #SBATCH --job-name openszz
 
 module load java
