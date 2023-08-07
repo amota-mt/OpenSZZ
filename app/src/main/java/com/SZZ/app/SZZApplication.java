@@ -4,8 +4,8 @@ import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.nio.file.Files;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+// import org.apache.logging.log4j.LogManager;
+// import org.apache.logging.log4j.Logger;
 
 import com.SZZ.jiraAnalyser.Application;
 import com.SZZ.jiraAnalyser.git.Git;
@@ -19,7 +19,7 @@ public class SZZApplication {
 
 	public static void main(String[] args) throws Exception {
 
-		Logger logger = LogManager.getLogger();
+		// Logger logger = LogManager.getLogger();
 
 		// args = new String[7];
 		// args[0] = "-all";
@@ -27,6 +27,10 @@ public class SZZApplication {
 		// args[2] = "https://issues.apache.org/jira/projects/oozie";
 		// args[3] = "OOZIE";
 
+		File results_dir = new File("results");
+		if (!results_dir.exists()) {
+			results_dir.mkdir();
+		}
 
 System.out.println("Number of Command Line Argument = "+args.length);
 System.out.println("executing open szz with the following parameters");
@@ -45,7 +49,7 @@ System.out.println("executing open szz with the following parameters");
 			case "-all":
 				Git git;
 				try {
-					File jiraIssuesFile = new File(args[3] + "_0.csv");
+					File jiraIssuesFile = new File("jiras/" + args[3] + "_0.csv");
 					if(!jiraIssuesFile.exists()) {
 						String[] array = args[2].split("/projects/");
 						String projectName = args[3];
