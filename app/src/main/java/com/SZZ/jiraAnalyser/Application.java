@@ -153,7 +153,7 @@ public class Application {
 	private void saveBugFixingCommits(List<Link> links,String projectName){
 		try {
 
-			File bugFixingCommitsFile = new File( projectName+"_BugFixingCommit.csv");
+			File bugFixingCommitsFile = new File("results/"+projectName+"_BugFixingCommit.csv");
 			if(!bugFixingCommitsFile.exists()) {
 				PrintWriter printWriter = new PrintWriter(bugFixingCommitsFile);
 				printWriter.println("commitsSha;commitTs;commitComment;issueKey;issueOpen;issueClose;issueTitle");
@@ -182,7 +182,7 @@ public class Application {
 			int count = links.size();
 			PrintWriter printWriter;
 			try {
-				printWriter = new PrintWriter(token+"_BugInducingCommits.csv");
+				printWriter = new PrintWriter("results/"+token+"_BugInducingCommits.csv");
 				printWriter.println("bugFixingId;bugFixingTs;bugFixingFileChanged;bugInducingId;bugInducingTs;issueId;note");
 
 				String repositoryDirectory = this.transactionManager.getGit().workingDirectory.toString();

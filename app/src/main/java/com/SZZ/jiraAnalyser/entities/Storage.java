@@ -15,7 +15,7 @@ import  com.SZZ.jiraAnalyser.git.*;
 public class Storage {
 	
 	private Path fileStoragePath = Paths.get(
-			System.getProperty("user.dir")
+			System.getProperty("user.dir") + "/repos"
 	);
 	
 	{
@@ -28,7 +28,7 @@ public class Storage {
 	
 	public Storage(String projectName) {
 		fileStoragePath = Paths.get(
-				System.getProperty("user.dir") 
+			System.getProperty("user.dir") + "/repos"
 				);
 	}
 	
@@ -48,8 +48,8 @@ public class Storage {
 			try {
 				File bugFixingCommitsFile = new File(git.workingDirectory.toString() + ".txt");
 				if(!Files.exists(bugFixingCommitsFile.toPath())) {
-					this.git.cloneRepository();
-					this.git.pullUpdates();
+					// this.git.cloneRepository();
+					// this.git.pullUpdates();
 					this.git.saveLog();
 				}
 				list = git.getCommits();
