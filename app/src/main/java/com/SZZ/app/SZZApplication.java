@@ -17,6 +17,12 @@ public class SZZApplication {
 	
 	private static String jiraAPI = "/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml";
 
+	public static void saveJira(String projectName) {
+		String jiraUrl = "https://issues.apache.org/jira/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml";
+		JiraRetriever jr1 = new JiraRetriever(jiraUrl, projectName);
+		jr1.printIssues();
+	}
+
 	public static void main(String[] args) throws Exception {
 
 		// Logger logger = LogManager.getLogger();
