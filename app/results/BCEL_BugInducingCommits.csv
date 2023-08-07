@@ -1,0 +1,378 @@
+bugFixingId;bugFixingTs;bugFixingFileChanged;bugInducingId;bugInducingTs;issueId;note
+63919b288fe8ec5e9d0dac9e18b4a186acd76d63;2022-09-21T22:20:35+0900;src/changes/changes.xml;;;BCEL-363;No changed lines, only additions
+f3267cbcc900f80851d561bdd16b239d936947f5;2022-09-21T22:18:58+0900;src/main/java/org/apache/bcel/classfile/ConstantPool.java;7e5355a1eb85940ada6a6bf81258dc9c23211f56;2020-06-04T21:30:35+0900;BCEL-363;
+f3267cbcc900f80851d561bdd16b239d936947f5;2022-09-21T22:18:58+0900;src/main/java/org/apache/bcel/generic/ConstantPoolGen.java;827c7864d73605af968aa8fc8fcc69b5486a8ca9;2015-08-21T07:56:09+0900;BCEL-363;
+f3267cbcc900f80851d561bdd16b239d936947f5;2022-09-21T22:18:58+0900;src/test/java/org/apache/bcel/classfile/ConstantPoolTestCase.java;;;BCEL-363;No changed lines, only additions
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/changes/changes.xml;;;BCEL-339;No changed lines, only additions
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/examples/ClassDumper.java;67817f31c1eea63feea901b3d1e11c0e4b88ca13;2019-05-31T05:02:00+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/classfile/AnnotationElementValue.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/classfile/ArrayElementValue.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/classfile/ConstantPool.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/classfile/ElementValue.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/classfile/EnumElementValue.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/classfile/Signature.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/classfile/SimpleElementValue.java;a40c772427c8dd563184c1922ac73262982a16b2;2015-09-12T20:43:22+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/classfile/StackMapEntry.java;2151a9c2051fe2c0d44251c799726b8f83821914;2015-08-21T21:41:43+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/classfile/StackMapType.java;25aeeeff73ce086ce4fb7d2e108b981f445d3b28;2015-08-18T08:15:48+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/classfile/Utility.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/generic/AnnotationElementValueGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/generic/ArrayElementValueGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/generic/ConstantPoolGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/generic/ElementValueGen.java;a40c772427c8dd563184c1922ac73262982a16b2;2015-09-12T20:43:22+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/generic/ElementValuePairGen.java;;;BCEL-339;No changed lines, only additions
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/generic/EnumElementValueGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/generic/FieldGen.java;5d1e87525ce84a737f6760e0a14073a0ebefe417;2020-06-02T07:31:03+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/generic/InstructionFactory.java;5d1e87525ce84a737f6760e0a14073a0ebefe417;2020-06-02T07:31:03+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/generic/JsrInstruction.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/generic/LDC.java;4227c5cf0ad132e1238ea556718d9bd6a3a592a2;2015-08-13T08:30:09+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/generic/LDC2_W.java;b7e9430e13a9bd0fad042307cb1995fba1ffe4ae;2015-08-26T01:28:57+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/generic/SimpleElementValueGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/util/BCELFactory.java;5d1e87525ce84a737f6760e0a14073a0ebefe417;2020-06-02T07:31:03+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/util/InstructionFinder.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/util/JavaWrapper.java;9f307d3947513e9008eda54b9d9dfdcdf76b4031;2015-08-16T16:51:45+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/verifier/statics/Pass3aVerifier.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-339;
+f959849a37c8b08871cec6d6276ab152e6ed08ce;2020-06-02T08:01:40+0900;src/main/java/org/apache/bcel/verifier/structurals/Pass3bVerifier.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-339;
+bf06bdaec1aa40d2069bc72337f0105f7fdc1498;2020-06-02T07:25:22+0900;src/changes/changes.xml;;;BCEL-338;No changed lines, only additions
+bf06bdaec1aa40d2069bc72337f0105f7fdc1498;2020-06-02T07:25:22+0900;src/main/java/org/apache/bcel/generic/InstructionFactory.java;ae1017364bad6dab70e73efd2fe23f0a9c2cfeef;2020-06-02T06:27:08+0900;BCEL-338;
+bed8f810c6a5fed63f22dfc4de780e46fc3683bb;2020-02-25T19:24:34+0900;src/main/java/org/apache/bcel/util/package.html;96ac0670cf9944d4912ab25ec885a4bea651443d;2001-10-30T04:59:54+0900;BCEL-335;
+57142f1b2a99f1b691ba430a9cfef50ccd8a6cc0;2019-10-13T05:55:31+0900;src/changes/changes.xml;;;BCEL-329;No changed lines, only additions
+57142f1b2a99f1b691ba430a9cfef50ccd8a6cc0;2019-10-13T05:55:31+0900;src/main/java/org/apache/bcel/generic/MethodGen.java;;;BCEL-329;
+1d528f6cf7ea74db01a03d724f288dd97b2c3f35;2019-09-26T09:09:42+0900;src/changes/changes.xml;;;BCEL-328;No changed lines, only additions
+1d528f6cf7ea74db01a03d724f288dd97b2c3f35;2019-09-26T09:09:42+0900;src/main/java/org/apache/bcel/classfile/DescendingVisitor.java;8dc6bbae4dff5434ae0a112f1a9ace6066074906;2019-08-28T06:57:20+0900;BCEL-328;
+4224c83d42502f37c781efe4108198b10f9075dd;2019-07-07T00:16:48+0900;src/changes/changes.xml;;;BCEL-299;
+4d89da4f52f6ae26a4917ba79259e8c89c67eb77;2019-04-12T22:05:05+0900;src/changes/changes.xml;;;BCEL-316;No changed lines, only additions
+4d89da4f52f6ae26a4917ba79259e8c89c67eb77;2019-04-12T22:05:05+0900;src/main/java/org/apache/bcel/classfile/Attribute.java;7a28a2d05733714850bd7e51a98fc97c42e47103;2016-06-22T05:50:19+0900;BCEL-316;
+4d89da4f52f6ae26a4917ba79259e8c89c67eb77;2019-04-12T22:05:05+0900;src/main/java/org/apache/bcel/classfile/Deprecated.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-316;
+4d89da4f52f6ae26a4917ba79259e8c89c67eb77;2019-04-12T22:05:05+0900;src/main/java/org/apache/bcel/classfile/PMGClass.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-316;
+4d89da4f52f6ae26a4917ba79259e8c89c67eb77;2019-04-12T22:05:05+0900;src/main/java/org/apache/bcel/classfile/Synthetic.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-316;
+4d89da4f52f6ae26a4917ba79259e8c89c67eb77;2019-04-12T22:05:05+0900;src/main/java/org/apache/bcel/verifier/structurals/Subroutines.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-316;
+78f672a2c6bd6e21a731e982f8e495563280d7d9;2019-02-12T00:26:56+0900;src/changes/changes.xml;;;BCEL-297;No changed lines, only additions
+45da20f49abafa125ff4f616e8312b89fbd1f139;2019-02-12T00:26:03+0900;src/main/java/org/apache/bcel/classfile/Constant.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-297;
+45da20f49abafa125ff4f616e8312b89fbd1f139;2019-02-12T00:26:03+0900;src/main/java/org/apache/bcel/classfile/Field.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-297;
+45da20f49abafa125ff4f616e8312b89fbd1f139;2019-02-12T00:26:03+0900;src/main/java/org/apache/bcel/classfile/JavaClass.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-297;
+45da20f49abafa125ff4f616e8312b89fbd1f139;2019-02-12T00:26:03+0900;src/main/java/org/apache/bcel/classfile/Method.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-297;
+45da20f49abafa125ff4f616e8312b89fbd1f139;2019-02-12T00:26:03+0900;src/main/java/org/apache/bcel/generic/ClassGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-297;
+45da20f49abafa125ff4f616e8312b89fbd1f139;2019-02-12T00:26:03+0900;src/main/java/org/apache/bcel/generic/FieldGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-297;
+45da20f49abafa125ff4f616e8312b89fbd1f139;2019-02-12T00:26:03+0900;src/main/java/org/apache/bcel/generic/MethodGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-297;
+190dee5fa3b5374f95ae8b3673705802789ed0a7;2019-02-12T00:11:41+0900;.travis.yml;;;BCEL-267;No changed lines, only additions
+190dee5fa3b5374f95ae8b3673705802789ed0a7;2019-02-12T00:11:41+0900;src/changes/changes.xml;;;BCEL-267;No changed lines, only additions
+190dee5fa3b5374f95ae8b3673705802789ed0a7;2019-02-12T00:11:41+0900;src/main/java/org/apache/bcel/generic/BranchHandle.java;adf9fc13b37f866d731c73a09071170d50bfa807;2015-08-26T00:27:48+0900;BCEL-267;
+190dee5fa3b5374f95ae8b3673705802789ed0a7;2019-02-12T00:11:41+0900;src/main/java/org/apache/bcel/generic/InstructionHandle.java;d691d34fe17e5f673713e9ac231de48902e95df6;2015-08-14T07:28:03+0900;BCEL-267;
+190dee5fa3b5374f95ae8b3673705802789ed0a7;2019-02-12T00:11:41+0900;src/test/java/org/apache/bcel/HandleTestCase.java;;;BCEL-267;No changed lines, only additions
+a2da1049443db9db3e2c06cff58463fe6cddb978;2018-07-28T14:00:45+0900;src/main/java/org/apache/bcel/util/ClassPath.java;7a28a2d05733714850bd7e51a98fc97c42e47103;2016-06-22T05:50:19+0900;BCEL-304;
+bf30b1f2af61a37d8e1215e1af6022ede913dc2d;2018-07-28T14:00:21+0900;src/changes/changes.xml;762dcffcb4739af4b61330205051237e73bece09;2017-12-09T04:10:48+0900;BCEL-304;
+bf30b1f2af61a37d8e1215e1af6022ede913dc2d;2018-07-28T14:00:21+0900;src/main/java/org/apache/bcel/util/ClassPath.java;f640f4ea1b89be01d820cb8d25bc27d6506f89bb;2017-08-26T01:33:06+0900;BCEL-304;
+bf30b1f2af61a37d8e1215e1af6022ede913dc2d;2018-07-28T14:00:21+0900;src/test/java/org/apache/bcel/util/ClassPathTestCase.java;;;BCEL-304;No changed lines, only additions
+4f30fa5358a7712bbaba7e25d97166d9b4a0f0a0;2017-10-17T05:34:31+0900;src/main/java/org/apache/bcel/generic/LocalVariableGen.java;;;BCEL-295;
+d700649c1748cdec25ce871925d80a1356e3147b;2017-10-17T05:32:38+0900;src/test/java/org/apache/bcel/data/PLSETestClass2.java;;;BCEL-295;No changed lines, only additions
+0d33e877b1642b1bb630415304b8d01de2ce427e;2017-10-17T05:32:13+0900;src/changes/changes.xml;;;BCEL-295;No changed lines, only additions
+0d33e877b1642b1bb630415304b8d01de2ce427e;2017-10-17T05:32:13+0900;src/main/java/org/apache/bcel/generic/LocalVariableGen.java;35ac47dc112c69259622bf1f702aa809c5307ecd;2015-08-14T06:21:12+0900;BCEL-295;
+0d33e877b1642b1bb630415304b8d01de2ce427e;2017-10-17T05:32:13+0900;src/main/java/org/apache/bcel/generic/MethodGen.java;c96a3e5a40040ef43e0a51935a368458763d3424;2016-09-06T15:38:18+0900;BCEL-295;
+0d33e877b1642b1bb630415304b8d01de2ce427e;2017-10-17T05:32:13+0900;src/test/java/org/apache/bcel/PLSETestCase.java;;;BCEL-295;No changed lines, only additions
+df7a37858bdf7c465d6ba96637558695e42e2fe9;2017-09-13T01:36:55+0900;src/changes/changes.xml;;;BCEL-286;No changed lines, only additions
+df7a37858bdf7c465d6ba96637558695e42e2fe9;2017-09-13T01:36:55+0900;src/main/java/org/apache/bcel/classfile/Utility.java;4ad705443258be2483cde74ca49033a9a2b93924;2015-08-24T07:28:37+0900;BCEL-286;
+df7a37858bdf7c465d6ba96637558695e42e2fe9;2017-09-13T01:36:55+0900;src/test/java/org/apache/bcel/classfile/UtilityTestCase.java;294b5827154e60ccde947a7c850a98104d670041;2015-08-21T06:36:33+0900;BCEL-286;
+54a95d899854ad5a0a7b896f99cd8ba68b89d471;2017-08-31T04:34:23+0900;src/changes/changes.xml;;;BCEL-276;
+54a95d899854ad5a0a7b896f99cd8ba68b89d471;2017-08-31T04:34:23+0900;src/main/java/org/apache/bcel/classfile/LocalVariable.java;;;BCEL-276;No changed lines, only additions
+54a95d899854ad5a0a7b896f99cd8ba68b89d471;2017-08-31T04:34:23+0900;src/main/java/org/apache/bcel/generic/LocalVariableGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-276;
+54a95d899854ad5a0a7b896f99cd8ba68b89d471;2017-08-31T04:34:23+0900;src/main/java/org/apache/bcel/generic/MethodGen.java;d47fec240c633b061a3ae9351f8199e8785261b4;2016-06-01T13:25:27+0900;BCEL-276;
+93c12bbb6d22a165a407b6184cdb40545f86c683;2017-08-31T04:28:20+0900;src/changes/changes.xml;;;BCEL-287;No changed lines, only additions
+93c12bbb6d22a165a407b6184cdb40545f86c683;2017-08-31T04:28:20+0900;src/main/java/org/apache/bcel/generic/IINC.java;d522432b79044740831a132d8b92e7dab5477444;2016-06-08T02:28:43+0900;BCEL-287;
+efc4809b7b73febc18cdd8976ff8e9d6d4537ade;2017-08-31T04:22:35+0900;src/changes/changes.xml;;;BCEL-283;No changed lines, only additions
+efc4809b7b73febc18cdd8976ff8e9d6d4537ade;2017-08-31T04:22:35+0900;src/main/java/org/apache/bcel/classfile/Attribute.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-283;
+5df07263f9fd644e8045569b82fce08b50c008a2;2017-05-19T15:42:30+0900;src/changes/changes.xml;;;BCEL-289;No changed lines, only additions
+e74df2c0e90e5e4ee92a0d45fcc6f5db5958861a;2017-05-19T15:41:16+0900;src/main/java/org/apache/bcel/generic/MethodGen.java;7a28a2d05733714850bd7e51a98fc97c42e47103;2016-06-22T05:50:19+0900;BCEL-289;
+e74df2c0e90e5e4ee92a0d45fcc6f5db5958861a;2017-05-19T15:41:16+0900;src/test/java/org/apache/bcel/generic/MethodGenTestCase.java;;;BCEL-289;No changed lines, only additions
+c96a3e5a40040ef43e0a51935a368458763d3424;2016-09-06T15:38:18+0900;src/changes/changes.xml;;;BCEL-276;No changed lines, only additions
+c96a3e5a40040ef43e0a51935a368458763d3424;2016-09-06T15:38:18+0900;src/main/java/org/apache/bcel/generic/MethodGen.java;;;BCEL-276;No changed lines, only additions
+c96a3e5a40040ef43e0a51935a368458763d3424;2016-09-06T15:38:18+0900;src/test/java/org/apache/bcel/LocalVariableTypeTableTestCase.java;;;BCEL-276;No changed lines, only additions
+c96a3e5a40040ef43e0a51935a368458763d3424;2016-09-06T15:38:18+0900;src/test/java/org/apache/bcel/data/SimpleClassHasMethodIncludeGenericArgument.java;;;BCEL-276;No changed lines, only additions
+7ceb5a6b8236517d708d7965f4873344c5630969;2016-07-29T17:10:05+0900;src/changes/changes.xml;;;BCEL-277;No changed lines, only additions
+7ceb5a6b8236517d708d7965f4873344c5630969;2016-07-29T17:10:05+0900;src/main/java/org/apache/bcel/classfile/ConstantPool.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-277;
+7ceb5a6b8236517d708d7965f4873344c5630969;2016-07-29T17:10:05+0900;src/test/java/org/apache/bcel/classfile/ConstantPoolTestCase.java;;;BCEL-277;No changed lines, only additions
+7ceb5a6b8236517d708d7965f4873344c5630969;2016-07-29T17:10:05+0900;src/test/java/org/apache/bcel/data/SimpleClassWithDefaultConstructor.java;;;BCEL-277;No changed lines, only additions
+cc1c0fbf13f7757a8fbc696653aced5f8cfd4005;2016-06-18T22:57:51+0900;RELEASE-NOTES.txt;;;BCEL-237;Ignored file type
+cc1c0fbf13f7757a8fbc696653aced5f8cfd4005;2016-06-18T22:57:51+0900;src/changes/changes.xml;;;BCEL-237;No changed lines, only additions
+2f2698fa5739eba1cdc3bdf8299a754fb98ae871;2016-06-15T02:02:22+0900;src/changes/changes.xml;;;BCEL-243;No changed lines, only additions
+2f2698fa5739eba1cdc3bdf8299a754fb98ae871;2016-06-15T02:02:22+0900;src/main/java/org/apache/bcel/generic/Type.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-243;
+2f2698fa5739eba1cdc3bdf8299a754fb98ae871;2016-06-15T02:02:22+0900;src/test/java/org/apache/bcel/generic/TypeTestCase.java;;;BCEL-243;No changed lines, only additions
+4b46a1595c4c8688644549b3cd762819f4ccfac0;2016-06-10T21:07:25+0900;;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-273;description/comments
+4b46a1595c4c8688644549b3cd762819f4ccfac0;2016-06-10T21:07:25+0900;;8ddaf505ae033aae2ed71e900b53159ce640f37c;2016-06-08T02:13:56+0900;BCEL-273;description/comments
+4b46a1595c4c8688644549b3cd762819f4ccfac0;2016-06-10T21:07:25+0900;;00196e4c7d6cafcf7ff94aa6d2e068dde5b6e36f;2015-08-10T07:24:59+0900;BCEL-273;description/comments
+4b46a1595c4c8688644549b3cd762819f4ccfac0;2016-06-10T21:07:25+0900;;58e0a1f9ffefd97b803ede8138e7cfad225aeb2c;2016-06-08T02:16:00+0900;BCEL-273;description/comments
+cc50f64aa8598728365f282056035cfc094e7bbd;2016-06-01T13:46:44+0900;src/changes/changes.xml;;;BCEL-271;No changed lines, only additions
+cc50f64aa8598728365f282056035cfc094e7bbd;2016-06-01T13:46:44+0900;src/main/java/org/apache/commons/bcel6/util/InstructionFinder.java;02f53e4fa6ec7fa339c8c9273183669d7f5928c9;2015-09-11T09:30:19+0900;BCEL-271;
+07e0698ed6961ac535a8971e52d61e53f877f58e;2016-02-05T15:09:42+0900;src/main/java/org/apache/commons/bcel6/generic/InstructionList.java;02f53e4fa6ec7fa339c8c9273183669d7f5928c9;2015-09-11T09:30:19+0900;BCEL-269;
+0b85abad6a951191875d8cb2af84a7da804c30c9;2015-09-12T20:22:02+0900;src/changes/changes.xml;feba9d2cb9dcb009f64fb8107febf1af8a9b8b40;2015-09-11T21:37:21+0900;BCEL-264;
+0b85abad6a951191875d8cb2af84a7da804c30c9;2015-09-12T20:22:02+0900;src/main/java/org/apache/commons/bcel6/classfile/ConstantMethodHandle.java;;;BCEL-264;No changed lines, only additions
+0b85abad6a951191875d8cb2af84a7da804c30c9;2015-09-12T20:22:02+0900;src/main/java/org/apache/commons/bcel6/classfile/ConstantMethodType.java;;;BCEL-264;No changed lines, only additions
+0b85abad6a951191875d8cb2af84a7da804c30c9;2015-09-12T20:22:02+0900;src/main/java/org/apache/commons/bcel6/classfile/DescendingVisitor.java;;;BCEL-264;No changed lines, only additions
+0b85abad6a951191875d8cb2af84a7da804c30c9;2015-09-12T20:22:02+0900;src/main/java/org/apache/commons/bcel6/classfile/EmptyVisitor.java;;;BCEL-264;No changed lines, only additions
+0b85abad6a951191875d8cb2af84a7da804c30c9;2015-09-12T20:22:02+0900;src/main/java/org/apache/commons/bcel6/classfile/ParameterAnnotationEntry.java;;;BCEL-264;No changed lines, only additions
+0b85abad6a951191875d8cb2af84a7da804c30c9;2015-09-12T20:22:02+0900;src/main/java/org/apache/commons/bcel6/classfile/Visitor.java;;;BCEL-264;No changed lines, only additions
+0b85abad6a951191875d8cb2af84a7da804c30c9;2015-09-12T20:22:02+0900;src/test/java/org/apache/commons/bcel6/visitors/CounterVisitor.java;;;BCEL-264;No changed lines, only additions
+4374b673a2b2ebbc7042c062b4f87ab49dd14930;2015-08-28T08:14:46+0900;src/main/java/org/apache/commons/bcel6/generic/InstructionComparator.java;;;BCEL-195;
+80ed7676093c6ee19c271fd9414d360b6a8d1712;2015-08-28T08:08:28+0900;src/changes/changes.xml;;;BCEL-195;No changed lines, only additions
+80ed7676093c6ee19c271fd9414d360b6a8d1712;2015-08-28T08:08:28+0900;src/main/java/org/apache/commons/bcel6/generic/InstructionComparator.java;;;BCEL-195;
+80ed7676093c6ee19c271fd9414d360b6a8d1712;2015-08-28T08:08:28+0900;src/test/java/org/apache/commons/bcel6/generic/InstructionHandleTestCase.java;;;BCEL-195;No changed lines, only additions
+06d969a8fe228de6a637e832743cf6df518fceb0;2015-08-28T07:27:01+0900;src/changes/changes.xml;;;BCEL-260;No changed lines, only additions
+06d969a8fe228de6a637e832743cf6df518fceb0;2015-08-28T07:27:01+0900;src/examples/ClassDumper.java;2c76cda4b5a6032129b27c6e4806c5c683e5e715;2015-08-25T04:47:28+0900;BCEL-260;
+7e303218009724e91ed7d3a008f89e8659567072;2015-08-27T02:59:54+0900;src/changes/changes.xml;;;BCEL-258;No changed lines, only additions
+7e303218009724e91ed7d3a008f89e8659567072;2015-08-27T02:59:54+0900;src/test/java/org/apache/commons/bcel6/generic/JDKGenericDumpTestCase.java;;;BCEL-258;No changed lines, only additions
+b227b3b6aa81ad319bdfe91a7611b957f0beffdf;2015-08-27T02:58:31+0900;src/changes/changes.xml;;;BCEL-257;No changed lines, only additions
+b227b3b6aa81ad319bdfe91a7611b957f0beffdf;2015-08-27T02:58:31+0900;src/main/java/org/apache/commons/bcel6/generic/INVOKESPECIAL.java;;;BCEL-257;No changed lines, only additions
+b227b3b6aa81ad319bdfe91a7611b957f0beffdf;2015-08-27T02:58:31+0900;src/main/java/org/apache/commons/bcel6/generic/INVOKESTATIC.java;;;BCEL-257;No changed lines, only additions
+b227b3b6aa81ad319bdfe91a7611b957f0beffdf;2015-08-27T02:58:31+0900;src/main/java/org/apache/commons/bcel6/generic/INVOKEVIRTUAL.java;;;BCEL-257;No changed lines, only additions
+5627e45ac3b893b7b8f69566738f8f09167fc87a;2015-08-26T23:52:09+0900;pom.xml;ecf8799fd3d401e7afcb62afa061daef50a37b61;2015-08-25T19:51:46+0900;BCEL-258;
+5627e45ac3b893b7b8f69566738f8f09167fc87a;2015-08-26T23:52:09+0900;src/test/java/org/apache/commons/bcel6/classfile/JDKClassDumpTestCase.java;;;BCEL-258;No changed lines, only additions
+2c76cda4b5a6032129b27c6e4806c5c683e5e715;2015-08-25T04:47:28+0900;src/examples/ClassDumper.java;;;BCEL-254;No changed lines, only additions
+bf300c3e8f03bf9aa1ff66195d79cafd8a626cb0;2015-08-25T04:46:43+0900;src/changes/changes.xml;;;BCEL-254;No changed lines, only additions
+bf300c3e8f03bf9aa1ff66195d79cafd8a626cb0;2015-08-25T04:46:43+0900;src/main/java/org/apache/commons/bcel6/classfile/Constant.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-254;
+bf300c3e8f03bf9aa1ff66195d79cafd8a626cb0;2015-08-25T04:46:43+0900;src/main/java/org/apache/commons/bcel6/util/BCELifier.java;f5e8a156a700ece9919778f4a4ca6753739141dd;2015-08-18T20:34:26+0900;BCEL-254;
+a375a02891369b9f0204e33a25ebfad424d642a7;2015-08-24T07:36:37+0900;src/changes/changes.xml;;;BCEL-245;No changed lines, only additions
+c4560eabcd60cd0f0e211978036519db748360fa;2015-08-24T01:52:06+0900;src/changes/changes.xml;;;BCEL-253;No changed lines, only additions
+c4560eabcd60cd0f0e211978036519db748360fa;2015-08-24T01:52:06+0900;src/main/java/org/apache/commons/bcel6/verifier/structurals/ControlFlowGraph.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-253;
+c4560eabcd60cd0f0e211978036519db748360fa;2015-08-24T01:52:06+0900;src/main/java/org/apache/commons/bcel6/verifier/structurals/Subroutines.java;294b5827154e60ccde947a7c850a98104d670041;2015-08-21T06:36:33+0900;BCEL-253;
+21feca713e75b1c486d9fca07aa9aea19410d72c;2015-08-21T21:33:44+0900;src/changes/changes.xml;;;BCEL-202;No changed lines, only additions
+21feca713e75b1c486d9fca07aa9aea19410d72c;2015-08-21T21:33:44+0900;src/main/java/org/apache/commons/bcel6/classfile/StackMap.java;;;BCEL-202;No changed lines, only additions
+21feca713e75b1c486d9fca07aa9aea19410d72c;2015-08-21T21:33:44+0900;src/main/java/org/apache/commons/bcel6/classfile/StackMapEntry.java;;;BCEL-202;
+36066a5695899b6df3272e469658f56827fac461;2015-08-21T20:32:35+0900;src/changes/changes.xml;;;BCEL-251;No changed lines, only additions
+36066a5695899b6df3272e469658f56827fac461;2015-08-21T20:32:35+0900;src/main/java/org/apache/commons/bcel6/Constants.java;;;BCEL-251;No changed lines, only additions
+36066a5695899b6df3272e469658f56827fac461;2015-08-21T20:32:35+0900;src/main/java/org/apache/commons/bcel6/verifier/statics/Pass3aVerifier.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-251;
+c2f5b0afe28af49f3b0360661545d52df70eac7e;2015-08-20T21:19:42+0900;src/changes/changes.xml;;;BCEL-249;No changed lines, only additions
+c2f5b0afe28af49f3b0360661545d52df70eac7e;2015-08-20T21:19:42+0900;src/main/java/org/apache/commons/bcel6/generic/BranchInstruction.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-249;
+c2f5b0afe28af49f3b0360661545d52df70eac7e;2015-08-20T21:19:42+0900;src/main/java/org/apache/commons/bcel6/generic/GOTO.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-249;
+c2f5b0afe28af49f3b0360661545d52df70eac7e;2015-08-20T21:19:42+0900;src/main/java/org/apache/commons/bcel6/generic/Instruction.java;;;BCEL-249;No changed lines, only additions
+c2f5b0afe28af49f3b0360661545d52df70eac7e;2015-08-20T21:19:42+0900;src/main/java/org/apache/commons/bcel6/generic/JSR.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-249;
+c2f5b0afe28af49f3b0360661545d52df70eac7e;2015-08-20T21:19:42+0900;src/main/java/org/apache/commons/bcel6/generic/PUSH.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-249;
+f1b42f447342224bec53e1c991057432f7365102;2015-08-20T20:30:47+0900;src/changes/changes.xml;;;BCEL-127;No changed lines, only additions
+7f98a3a249cd1dea6c4113856e34350aa32ee84d;2015-08-20T20:28:00+0900;src/main/java/org/apache/commons/bcel6/generic/InstructionFactory.java;;;BCEL-127;No changed lines, only additions
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/changes/changes.xml;;;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/classfile/Attribute.java;;;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/classfile/Constant.java;;;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/classfile/ConstantCP.java;;;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/classfile/ElementValue.java;;;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/classfile/FieldOrMethod.java;;;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/generic/AnnotationElementValueGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/generic/ArrayElementValueGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/generic/ArrayType.java;;;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/generic/BranchInstruction.java;;;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/generic/CPInstruction.java;;;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/generic/ClassElementValueGen.java;;;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/generic/ConstantPoolGen.java;;;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/generic/ElementValueGen.java;;;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/generic/EnumElementValueGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/generic/Instruction.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/generic/InstructionComparator.java;;;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/generic/LDC.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/generic/SimpleElementValueGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+12fa860b66d1e7ea61d1e2297edcd59857ce0c66;2015-08-18T19:17:53+0900;src/main/java/org/apache/commons/bcel6/generic/Type.java;;;BCEL-232;
+3eb7299f4fad1fd95c13c81c7b67cdf2cc86b93d;2015-08-16T18:25:33+0900;src/examples/ProxyCreator.java;;;BCEL-110;No changed lines, only additions
+9f307d3947513e9008eda54b9d9dfdcdf76b4031;2015-08-16T16:51:45+0900;src/changes/changes.xml;;;BCEL-110;
+9f307d3947513e9008eda54b9d9dfdcdf76b4031;2015-08-16T16:51:45+0900;src/main/java/org/apache/commons/bcel6/util/JavaWrapper.java;;;BCEL-110;
+b4d4d168b6077c8c6a35257dee0967fbb85398c5;2015-08-15T07:22:47+0900;src/main/java/org/apache/commons/bcel6/generic/MethodGen.java;;;BCEL-79;
+b4d4d168b6077c8c6a35257dee0967fbb85398c5;2015-08-15T07:22:47+0900;src/test/java/org/apache/commons/bcel6/PLSETestCase.java;;;BCEL-79;No changed lines, only additions
+b4d4d168b6077c8c6a35257dee0967fbb85398c5;2015-08-15T07:22:47+0900;src/test/java/org/apache/commons/bcel6/data/PLSETestClass.java;;;BCEL-79;No changed lines, only additions
+5292a12753c590a62a21f991057db3c4ed5d3775;2015-08-14T07:04:00+0900;src/changes/changes.xml;;;BCEL-110;No changed lines, only additions
+5292a12753c590a62a21f991057db3c4ed5d3775;2015-08-14T07:04:00+0900;src/main/java/org/apache/commons/bcel6/util/ClassLoader.java;;;BCEL-110;No changed lines, only additions
+35ac47dc112c69259622bf1f702aa809c5307ecd;2015-08-14T06:21:12+0900;src/changes/changes.xml;;;BCEL-208;No changed lines, only additions
+35ac47dc112c69259622bf1f702aa809c5307ecd;2015-08-14T06:21:12+0900;src/main/java/org/apache/commons/bcel6/generic/LocalVariableGen.java;;;BCEL-208;
+35ac47dc112c69259622bf1f702aa809c5307ecd;2015-08-14T06:21:12+0900;src/main/java/org/apache/commons/bcel6/generic/MethodGen.java;;;BCEL-208;
+35ac47dc112c69259622bf1f702aa809c5307ecd;2015-08-14T06:21:12+0900;src/test/java/org/apache/commons/bcel6/PLSETestCase.java;;;BCEL-208;No changed lines, only additions
+35ac47dc112c69259622bf1f702aa809c5307ecd;2015-08-14T06:21:12+0900;src/test/java/org/apache/commons/bcel6/data/PLSETestClass.java;;;BCEL-208;No changed lines, only additions
+ecdc6f1f11178c29c812ecd5725c2a2818d3f255;2015-08-14T04:50:41+0900;src/changes/changes.xml;;;BCEL-217;No changed lines, only additions
+ecdc6f1f11178c29c812ecd5725c2a2818d3f255;2015-08-14T04:50:41+0900;src/main/java/org/apache/commons/bcel6/util/InstructionFinder.java;;;BCEL-217;No changed lines, only additions
+03946285e4d8d812b3485e036de69226f7fd4345;2015-08-13T08:53:24+0900;src/main/java/org/apache/commons/bcel6/generic/AnnotationElementValueGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+03946285e4d8d812b3485e036de69226f7fd4345;2015-08-13T08:53:24+0900;src/main/java/org/apache/commons/bcel6/generic/ArrayElementValueGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+03946285e4d8d812b3485e036de69226f7fd4345;2015-08-13T08:53:24+0900;src/main/java/org/apache/commons/bcel6/generic/ClassElementValueGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+03946285e4d8d812b3485e036de69226f7fd4345;2015-08-13T08:53:24+0900;src/main/java/org/apache/commons/bcel6/generic/ElementValueGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+03946285e4d8d812b3485e036de69226f7fd4345;2015-08-13T08:53:24+0900;src/main/java/org/apache/commons/bcel6/generic/EnumElementValueGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+03946285e4d8d812b3485e036de69226f7fd4345;2015-08-13T08:53:24+0900;src/main/java/org/apache/commons/bcel6/generic/SimpleElementValueGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4227c5cf0ad132e1238ea556718d9bd6a3a592a2;2015-08-13T08:30:09+0900;src/main/java/org/apache/commons/bcel6/generic/CPInstruction.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4227c5cf0ad132e1238ea556718d9bd6a3a592a2;2015-08-13T08:30:09+0900;src/main/java/org/apache/commons/bcel6/generic/ConstantPoolGen.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4227c5cf0ad132e1238ea556718d9bd6a3a592a2;2015-08-13T08:30:09+0900;src/main/java/org/apache/commons/bcel6/generic/FieldInstruction.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4227c5cf0ad132e1238ea556718d9bd6a3a592a2;2015-08-13T08:30:09+0900;src/main/java/org/apache/commons/bcel6/generic/FieldOrMethod.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4227c5cf0ad132e1238ea556718d9bd6a3a592a2;2015-08-13T08:30:09+0900;src/main/java/org/apache/commons/bcel6/generic/INVOKEDYNAMIC.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4227c5cf0ad132e1238ea556718d9bd6a3a592a2;2015-08-13T08:30:09+0900;src/main/java/org/apache/commons/bcel6/generic/INVOKEINTERFACE.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4227c5cf0ad132e1238ea556718d9bd6a3a592a2;2015-08-13T08:30:09+0900;src/main/java/org/apache/commons/bcel6/generic/InvokeInstruction.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4227c5cf0ad132e1238ea556718d9bd6a3a592a2;2015-08-13T08:30:09+0900;src/main/java/org/apache/commons/bcel6/generic/LDC.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4227c5cf0ad132e1238ea556718d9bd6a3a592a2;2015-08-13T08:30:09+0900;src/main/java/org/apache/commons/bcel6/generic/LDC2_W.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4227c5cf0ad132e1238ea556718d9bd6a3a592a2;2015-08-13T08:30:09+0900;src/main/java/org/apache/commons/bcel6/generic/MULTIANEWARRAY.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4227c5cf0ad132e1238ea556718d9bd6a3a592a2;2015-08-13T08:30:09+0900;src/main/java/org/apache/commons/bcel6/generic/NameSignatureInstruction.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+8e29a71464b8dd555a9a9bb428e2812d63a8e089;2015-08-13T08:19:09+0900;src/main/java/org/apache/commons/bcel6/generic/ArrayType.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+8e29a71464b8dd555a9a9bb428e2812d63a8e089;2015-08-13T08:19:09+0900;src/main/java/org/apache/commons/bcel6/generic/BasicType.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+8e29a71464b8dd555a9a9bb428e2812d63a8e089;2015-08-13T08:19:09+0900;src/main/java/org/apache/commons/bcel6/generic/Type.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/BranchHandle.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/BranchInstruction.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/GOTO.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/GOTO_W.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/IFEQ.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/IFGE.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/IFGT.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/IFLE.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/IFLT.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/IFNE.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/IFNONNULL.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/IFNULL.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/IF_ACMPEQ.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/IF_ACMPNE.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/IF_ICMPEQ.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/IF_ICMPGE.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/IF_ICMPGT.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/IF_ICMPLE.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/IF_ICMPLT.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/IF_ICMPNE.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/InstructionComparator.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/InstructionList.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/JSR.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/JSR_W.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/JsrInstruction.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4b75fdd1f345616a2acc62393d626e5094ca2d44;2015-08-13T07:34:54+0900;src/main/java/org/apache/commons/bcel6/generic/Select.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+14fdded02c630bb89b9d9ff3d7168da3b54f8617;2015-08-13T03:34:18+0900;src/main/java/org/apache/commons/bcel6/ExceptionConstants.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+14fdded02c630bb89b9d9ff3d7168da3b54f8617;2015-08-13T03:34:18+0900;src/main/java/org/apache/commons/bcel6/generic/ANEWARRAY.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+14fdded02c630bb89b9d9ff3d7168da3b54f8617;2015-08-13T03:34:18+0900;src/main/java/org/apache/commons/bcel6/generic/ArrayInstruction.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+14fdded02c630bb89b9d9ff3d7168da3b54f8617;2015-08-13T03:34:18+0900;src/main/java/org/apache/commons/bcel6/generic/CHECKCAST.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+14fdded02c630bb89b9d9ff3d7168da3b54f8617;2015-08-13T03:34:18+0900;src/main/java/org/apache/commons/bcel6/generic/GETFIELD.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+14fdded02c630bb89b9d9ff3d7168da3b54f8617;2015-08-13T03:34:18+0900;src/main/java/org/apache/commons/bcel6/generic/GETSTATIC.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+14fdded02c630bb89b9d9ff3d7168da3b54f8617;2015-08-13T03:34:18+0900;src/main/java/org/apache/commons/bcel6/generic/INSTANCEOF.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+14fdded02c630bb89b9d9ff3d7168da3b54f8617;2015-08-13T03:34:18+0900;src/main/java/org/apache/commons/bcel6/generic/INVOKEDYNAMIC.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+14fdded02c630bb89b9d9ff3d7168da3b54f8617;2015-08-13T03:34:18+0900;src/main/java/org/apache/commons/bcel6/generic/INVOKEINTERFACE.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+14fdded02c630bb89b9d9ff3d7168da3b54f8617;2015-08-13T03:34:18+0900;src/main/java/org/apache/commons/bcel6/generic/INVOKESPECIAL.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+14fdded02c630bb89b9d9ff3d7168da3b54f8617;2015-08-13T03:34:18+0900;src/main/java/org/apache/commons/bcel6/generic/INVOKESTATIC.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+14fdded02c630bb89b9d9ff3d7168da3b54f8617;2015-08-13T03:34:18+0900;src/main/java/org/apache/commons/bcel6/generic/INVOKEVIRTUAL.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+14fdded02c630bb89b9d9ff3d7168da3b54f8617;2015-08-13T03:34:18+0900;src/main/java/org/apache/commons/bcel6/generic/LDC.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+14fdded02c630bb89b9d9ff3d7168da3b54f8617;2015-08-13T03:34:18+0900;src/main/java/org/apache/commons/bcel6/generic/MULTIANEWARRAY.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+14fdded02c630bb89b9d9ff3d7168da3b54f8617;2015-08-13T03:34:18+0900;src/main/java/org/apache/commons/bcel6/generic/NEW.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+14fdded02c630bb89b9d9ff3d7168da3b54f8617;2015-08-13T03:34:18+0900;src/main/java/org/apache/commons/bcel6/generic/PUTFIELD.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+14fdded02c630bb89b9d9ff3d7168da3b54f8617;2015-08-13T03:34:18+0900;src/main/java/org/apache/commons/bcel6/generic/PUTSTATIC.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+9325aac806818a7993d42e82dc57814d8725f014;2015-08-13T02:55:43+0900;src/main/java/org/apache/commons/bcel6/generic/Instruction.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+9325aac806818a7993d42e82dc57814d8725f014;2015-08-13T02:55:43+0900;src/main/java/org/apache/commons/bcel6/generic/InstructionConstants.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+9325aac806818a7993d42e82dc57814d8725f014;2015-08-13T02:55:43+0900;src/main/java/org/apache/commons/bcel6/generic/PUSH.java;;;BCEL-237;
+9325aac806818a7993d42e82dc57814d8725f014;2015-08-13T02:55:43+0900;src/main/java/org/apache/commons/bcel6/util/BCELFactory.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-237;
+db84d4027bf3c4e2ea9f3c011e10fee7866235a4;2015-08-13T00:29:23+0900;src/changes/changes.xml;;;BCEL-239;No changed lines, only additions
+db84d4027bf3c4e2ea9f3c011e10fee7866235a4;2015-08-13T00:29:23+0900;src/main/java/org/apache/commons/bcel6/Constants.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+db84d4027bf3c4e2ea9f3c011e10fee7866235a4;2015-08-13T00:29:23+0900;src/main/java/org/apache/commons/bcel6/classfile/AnnotationEntry.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+db84d4027bf3c4e2ea9f3c011e10fee7866235a4;2015-08-13T00:29:23+0900;src/main/java/org/apache/commons/bcel6/classfile/CodeException.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+db84d4027bf3c4e2ea9f3c011e10fee7866235a4;2015-08-13T00:29:23+0900;src/main/java/org/apache/commons/bcel6/classfile/LocalVariable.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+db84d4027bf3c4e2ea9f3c011e10fee7866235a4;2015-08-13T00:29:23+0900;src/main/java/org/apache/commons/bcel6/classfile/ParameterAnnotationEntry.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+db84d4027bf3c4e2ea9f3c011e10fee7866235a4;2015-08-13T00:29:23+0900;src/main/java/org/apache/commons/bcel6/util/AttributeHTML.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+db84d4027bf3c4e2ea9f3c011e10fee7866235a4;2015-08-13T00:29:23+0900;src/main/java/org/apache/commons/bcel6/util/Class2HTML.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+db84d4027bf3c4e2ea9f3c011e10fee7866235a4;2015-08-13T00:29:23+0900;src/main/java/org/apache/commons/bcel6/util/CodeHTML.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+db84d4027bf3c4e2ea9f3c011e10fee7866235a4;2015-08-13T00:29:23+0900;src/main/java/org/apache/commons/bcel6/util/ConstantHTML.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+db84d4027bf3c4e2ea9f3c011e10fee7866235a4;2015-08-13T00:29:23+0900;src/main/java/org/apache/commons/bcel6/util/MethodHTML.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+db84d4027bf3c4e2ea9f3c011e10fee7866235a4;2015-08-13T00:29:23+0900;src/main/java/org/apache/commons/bcel6/verifier/statics/Pass2Verifier.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+db84d4027bf3c4e2ea9f3c011e10fee7866235a4;2015-08-13T00:29:23+0900;src/main/java/org/apache/commons/bcel6/verifier/structurals/UninitializedObjectType.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+db84d4027bf3c4e2ea9f3c011e10fee7866235a4;2015-08-13T00:29:23+0900;src/test/java/org/apache/commons/bcel6/verifier/tests/TestArrayAccess02Creator.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+db84d4027bf3c4e2ea9f3c011e10fee7866235a4;2015-08-13T00:29:23+0900;src/test/java/org/apache/commons/bcel6/verifier/tests/TestArrayAccess03Creator.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+db84d4027bf3c4e2ea9f3c011e10fee7866235a4;2015-08-13T00:29:23+0900;src/test/java/org/apache/commons/bcel6/verifier/tests/TestArrayAccess04Creator.java;;;BCEL-239;No changed lines, only additions
+db84d4027bf3c4e2ea9f3c011e10fee7866235a4;2015-08-13T00:29:23+0900;src/test/java/org/apache/commons/bcel6/verifier/tests/TestReturn01Creator.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+db84d4027bf3c4e2ea9f3c011e10fee7866235a4;2015-08-13T00:29:23+0900;src/test/java/org/apache/commons/bcel6/verifier/tests/TestReturn03Creator.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+0af0fb3158488b64b4b02a794a757891bb636de9;2015-08-12T23:59:42+0900;src/main/java/org/apache/commons/bcel6/generic/InstructionConstants.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+0af0fb3158488b64b4b02a794a757891bb636de9;2015-08-12T23:59:42+0900;src/main/java/org/apache/commons/bcel6/generic/InstructionFactory.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+0af0fb3158488b64b4b02a794a757891bb636de9;2015-08-12T23:59:42+0900;src/main/java/org/apache/commons/bcel6/generic/PUSH.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+e9c4b03698ac997267ba187e731a9a100ceb51cb;2015-08-12T22:59:45+0900;src/changes/changes.xml;;;BCEL-232;No changed lines, only additions
+da5f54665dc13c7ccef9b95d7fe58d651248eefd;2015-08-12T22:58:52+0900;src/main/java/org/apache/commons/bcel6/classfile/Attribute.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+da5f54665dc13c7ccef9b95d7fe58d651248eefd;2015-08-12T22:58:52+0900;src/main/java/org/apache/commons/bcel6/classfile/Constant.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+da5f54665dc13c7ccef9b95d7fe58d651248eefd;2015-08-12T22:58:52+0900;src/main/java/org/apache/commons/bcel6/classfile/ConstantCP.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+da5f54665dc13c7ccef9b95d7fe58d651248eefd;2015-08-12T22:58:52+0900;src/main/java/org/apache/commons/bcel6/classfile/ElementValue.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+da5f54665dc13c7ccef9b95d7fe58d651248eefd;2015-08-12T22:58:52+0900;src/main/java/org/apache/commons/bcel6/classfile/FieldOrMethod.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-232;
+4a2fba25228536501c202754c9cb7a442c1e496d;2015-08-12T21:46:38+0900;src/main/java/org/apache/commons/bcel6/ExceptionConstants.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-239;
+0ea7ebe90701a08f8417816cb3715de011f01420;2015-08-12T19:54:45+0900;src/changes/changes.xml;;;BCEL-234;No changed lines, only additions
+0ea7ebe90701a08f8417816cb3715de011f01420;2015-08-12T19:54:45+0900;src/main/java/org/apache/commons/bcel6/util/ClassLoader.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-234;
+0ea7ebe90701a08f8417816cb3715de011f01420;2015-08-12T19:54:45+0900;src/main/java/org/apache/commons/bcel6/verifier/NativeVerifier.java;f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65;2015-08-10T06:21:10+0900;BCEL-234;
+0ea7ebe90701a08f8417816cb3715de011f01420;2015-08-12T19:54:45+0900;src/main/java/org/apache/commons/bcel6/verifier/VerifyDialog.java;;;BCEL-234;No changed lines, only additions
+31799e060afc7998ac5421ab682633ec3568b3bc;2015-08-11T14:19:31+0900;LICENSE-header.txt;;;BCEL-226;Ignored file type
+31799e060afc7998ac5421ab682633ec3568b3bc;2015-08-11T14:19:31+0900;src/assembly/bin.xml;785662da492acfdf4e7bc4155d1e003b6f0e6f9b;2015-08-10T08:20:25+0900;BCEL-226;
+31799e060afc7998ac5421ab682633ec3568b3bc;2015-08-11T14:19:31+0900;src/test/java/org/apache/commons/bcel6/verifier/tests/TestLegalInvokeInterface01.java;;;BCEL-226;No changed lines, only additions
+31799e060afc7998ac5421ab682633ec3568b3bc;2015-08-11T14:19:31+0900;src/test/java/org/apache/commons/bcel6/verifier/tests/TestLegalInvokeSpecial01.java;;;BCEL-226;No changed lines, only additions
+31799e060afc7998ac5421ab682633ec3568b3bc;2015-08-11T14:19:31+0900;src/test/java/org/apache/commons/bcel6/verifier/tests/TestLegalInvokeSpecial02.java;;;BCEL-226;No changed lines, only additions
+31799e060afc7998ac5421ab682633ec3568b3bc;2015-08-11T14:19:31+0900;src/test/java/org/apache/commons/bcel6/verifier/tests/TestLegalInvokeStatic01.java;;;BCEL-226;No changed lines, only additions
+31799e060afc7998ac5421ab682633ec3568b3bc;2015-08-11T14:19:31+0900;src/test/java/org/apache/commons/bcel6/verifier/tests/TestLegalInvokeVirtual01.java;;;BCEL-226;No changed lines, only additions
+31799e060afc7998ac5421ab682633ec3568b3bc;2015-08-11T14:19:31+0900;src/test/java/org/apache/commons/bcel6/verifier/tests/TestLegalInvokeVirtual02.java;;;BCEL-226;No changed lines, only additions
+bc6483cdbc2d1f65aceadb7de95417a6ecc45969;2015-07-25T00:28:32+0900;src/changes/changes.xml;;;BCEL-219;No changed lines, only additions
+bc6483cdbc2d1f65aceadb7de95417a6ecc45969;2015-07-25T00:28:32+0900;src/main/java/org/apache/bcel/classfile/ConstantPool.java;a6d28b013f3c9b4d4c17c6020c9d72c919e4349d;2014-12-19T21:57:12+0900;BCEL-219;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/changes/changes.xml;;;BCEL-209;No changed lines, only additions
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/Constants.java;61e6be8ca7046bbb725276c9a3c155094065f720;2014-12-20T01:20:06+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/classfile/BootstrapMethod.java;a6d28b013f3c9b4d4c17c6020c9d72c919e4349d;2014-12-19T21:57:12+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/classfile/BootstrapMethods.java;;;BCEL-209;No changed lines, only additions
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/classfile/ConstantCP.java;d532ec1089fdfd05004f143c87b96ed036a9abbf;2006-03-15T20:31:56+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/classfile/ConstantInvokeDynamic.java;dcae96f24b09c6e56a0ea755e21fc1010e1aeda3;2012-08-27T07:02:59+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/classfile/ConstantPool.java;61e6be8ca7046bbb725276c9a3c155094065f720;2014-12-20T01:20:06+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/classfile/DescendingVisitor.java;9c5088cb66e46d66f017b0e9c4629107541cd201;2014-04-19T07:09:58+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/classfile/EmptyVisitor.java;9c5088cb66e46d66f017b0e9c4629107541cd201;2014-04-19T07:09:58+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/classfile/Utility.java;09499726b740d11acfdd16d1658ba98beb808d71;2014-01-01T07:06:09+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/classfile/Visitor.java;;;BCEL-209;No changed lines, only additions
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/generic/ConstantPoolGen.java;d532ec1089fdfd05004f143c87b96ed036a9abbf;2006-03-15T20:31:56+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/generic/EmptyVisitor.java;0bccef9117c0f0ccee3d5c7292d8100bc82009bb;2014-05-31T07:51:27+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/generic/FieldOrMethod.java;e40aa84e96395c700178cc1e9b70a7398eff9a58;2013-12-17T11:51:54+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/generic/GETFIELD.java;17e8850f782351583dadeb4aaf290f49a4f22978;2014-06-05T21:32:51+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/generic/GETSTATIC.java;17e8850f782351583dadeb4aaf290f49a4f22978;2014-06-05T21:32:51+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/generic/INVOKEDYNAMIC.java;17e8850f782351583dadeb4aaf290f49a4f22978;2014-06-05T21:32:51+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/generic/INVOKEINTERFACE.java;17e8850f782351583dadeb4aaf290f49a4f22978;2014-06-05T21:32:51+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/generic/INVOKESPECIAL.java;17e8850f782351583dadeb4aaf290f49a4f22978;2014-06-05T21:32:51+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/generic/INVOKESTATIC.java;17e8850f782351583dadeb4aaf290f49a4f22978;2014-06-05T21:32:51+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/generic/INVOKEVIRTUAL.java;17e8850f782351583dadeb4aaf290f49a4f22978;2014-06-05T21:32:51+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/generic/InstructionFactory.java;;;BCEL-209;No changed lines, only additions
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/generic/InvokeInstruction.java;d532ec1089fdfd05004f143c87b96ed036a9abbf;2006-03-15T20:31:56+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/generic/PUTFIELD.java;17e8850f782351583dadeb4aaf290f49a4f22978;2014-06-05T21:32:51+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/generic/PUTSTATIC.java;17e8850f782351583dadeb4aaf290f49a4f22978;2014-06-05T21:32:51+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/generic/Visitor.java;17e8850f782351583dadeb4aaf290f49a4f22978;2014-06-05T21:32:51+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/util/CodeHTML.java;d532ec1089fdfd05004f143c87b96ed036a9abbf;2006-03-15T20:31:56+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/util/InstructionFinder.java;0bccef9117c0f0ccee3d5c7292d8100bc82009bb;2014-05-31T07:51:27+0900;BCEL-209;
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/verifier/statics/Pass3aVerifier.java;;;BCEL-209;No changed lines, only additions
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/verifier/structurals/ExecutionVisitor.java;;;BCEL-209;No changed lines, only additions
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/main/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java;;;BCEL-209;No changed lines, only additions
+763333c2572c5ebcb8f1d09c32876da987741c54;2015-07-20T06:10:46+0900;src/test/java/org/apache/bcel/visitors/CounterVisitor.java;;;BCEL-209;No changed lines, only additions
+48426e0049b01d86b2af3b0cd4c7452a98bbcaaf;2015-07-18T13:56:40+0900;pom.xml;;;BCEL-187;
+48426e0049b01d86b2af3b0cd4c7452a98bbcaaf;2015-07-18T13:56:40+0900;src/changes/changes.xml;;;BCEL-187;No changed lines, only additions
+48426e0049b01d86b2af3b0cd4c7452a98bbcaaf;2015-07-18T13:56:40+0900;src/main/java/org/apache/bcel/verifier/statics/Pass3aVerifier.java;0bccef9117c0f0ccee3d5c7292d8100bc82009bb;2014-05-31T07:51:27+0900;BCEL-187;
+48426e0049b01d86b2af3b0cd4c7452a98bbcaaf;2015-07-18T13:56:40+0900;src/test/java/org/apache/bcel/verifier/AbstractVerifierTestCase.java;;;BCEL-187;
+48426e0049b01d86b2af3b0cd4c7452a98bbcaaf;2015-07-18T13:56:40+0900;src/test/java/org/apache/bcel/verifier/VerifierInvokeTestCase.java;;;BCEL-187;No changed lines, only additions
+48426e0049b01d86b2af3b0cd4c7452a98bbcaaf;2015-07-18T13:56:40+0900;src/test/java/org/apache/bcel/verifier/tests/TestLegalInvokeInterface01.java;;;BCEL-187;No changed lines, only additions
+48426e0049b01d86b2af3b0cd4c7452a98bbcaaf;2015-07-18T13:56:40+0900;src/test/java/org/apache/bcel/verifier/tests/TestLegalInvokeSpecial01.java;;;BCEL-187;No changed lines, only additions
+48426e0049b01d86b2af3b0cd4c7452a98bbcaaf;2015-07-18T13:56:40+0900;src/test/java/org/apache/bcel/verifier/tests/TestLegalInvokeSpecial02.java;;;BCEL-187;No changed lines, only additions
+48426e0049b01d86b2af3b0cd4c7452a98bbcaaf;2015-07-18T13:56:40+0900;src/test/java/org/apache/bcel/verifier/tests/TestLegalInvokeStatic01.java;;;BCEL-187;No changed lines, only additions
+48426e0049b01d86b2af3b0cd4c7452a98bbcaaf;2015-07-18T13:56:40+0900;src/test/java/org/apache/bcel/verifier/tests/TestLegalInvokeVirtual01.java;;;BCEL-187;No changed lines, only additions
+48426e0049b01d86b2af3b0cd4c7452a98bbcaaf;2015-07-18T13:56:40+0900;src/test/java/org/apache/bcel/verifier/tests/TestLegalInvokeVirtual02.java;;;BCEL-187;No changed lines, only additions
+9a09f41b03df238043e0eda59d5cfa11cdd36523;2015-03-08T04:38:34+0900;src/changes/changes.xml;;;BCEL-188;No changed lines, only additions
+9a09f41b03df238043e0eda59d5cfa11cdd36523;2015-03-08T04:38:34+0900;src/main/java/org/apache/bcel/generic/ReferenceType.java;d532ec1089fdfd05004f143c87b96ed036a9abbf;2006-03-15T20:31:56+0900;BCEL-188;
+9a09f41b03df238043e0eda59d5cfa11cdd36523;2015-03-08T04:38:34+0900;src/main/java/org/apache/bcel/generic/Type.java;;;BCEL-188;No changed lines, only additions
+9a09f41b03df238043e0eda59d5cfa11cdd36523;2015-03-08T04:38:34+0900;src/main/java/org/apache/bcel/verifier/structurals/Pass3bVerifier.java;0bccef9117c0f0ccee3d5c7292d8100bc82009bb;2014-05-31T07:51:27+0900;BCEL-188;
+9a09f41b03df238043e0eda59d5cfa11cdd36523;2015-03-08T04:38:34+0900;src/test/java/org/apache/bcel/verifier/VerifierReturnTestCase.java;;;BCEL-188;No changed lines, only additions
+9a09f41b03df238043e0eda59d5cfa11cdd36523;2015-03-08T04:38:34+0900;src/test/java/org/apache/bcel/verifier/tests/TestArray01.java;;;BCEL-188;No changed lines, only additions
+9a09f41b03df238043e0eda59d5cfa11cdd36523;2015-03-08T04:38:34+0900;src/test/java/org/apache/bcel/verifier/tests/TestReturn02.java;;;BCEL-188;No changed lines, only additions
+9a09f41b03df238043e0eda59d5cfa11cdd36523;2015-03-08T04:38:34+0900;src/test/resources/org/apache/bcel/verifier/tests/TestReturn03.class;;;BCEL-188;No changed lines, only additions
+5f029f691332139ea0bb0e938b90799d74806a93;2015-03-07T09:23:06+0900;RELEASE-NOTES.txt;;;BCEL-184;Ignored file type
+5f029f691332139ea0bb0e938b90799d74806a93;2015-03-07T09:23:06+0900;src/changes/changes.xml;;;BCEL-184;No changed lines, only additions
+5f029f691332139ea0bb0e938b90799d74806a93;2015-03-07T09:23:06+0900;src/main/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java;;;BCEL-184;No changed lines, only additions
+5f029f691332139ea0bb0e938b90799d74806a93;2015-03-07T09:23:06+0900;src/test/java/org/apache/bcel/verifier/AbstractVerifierTestCase.java;;;BCEL-184;No changed lines, only additions
+5f029f691332139ea0bb0e938b90799d74806a93;2015-03-07T09:23:06+0900;src/test/java/org/apache/bcel/verifier/VerifierReturnTestCase.java;;;BCEL-184;No changed lines, only additions
+5f029f691332139ea0bb0e938b90799d74806a93;2015-03-07T09:23:06+0900;src/test/resources/org/apache/bcel/verifier/tests/TestReturn01.class;;;BCEL-184;No changed lines, only additions
+91af4178c1ff8b70b7de794ae28d539821f01d03;2015-02-21T08:17:15+0900;src/main/java/org/apache/bcel/generic/InstructionTargeter.java;73503e6ba17ed20b4348a023cbd400b42a1ea615;2011-08-16T08:17:19+0900;BCEL-161;
+c070c23750e4720fe44b92237b2b55559619e8ac;2015-02-20T23:52:39+0900;RELEASE-NOTES.txt;;;BCEL-207;Ignored file type
+c070c23750e4720fe44b92237b2b55559619e8ac;2015-02-20T23:52:39+0900;src/changes/changes.xml;;;BCEL-207;No changed lines, only additions
+c070c23750e4720fe44b92237b2b55559619e8ac;2015-02-20T23:52:39+0900;src/main/java/org/apache/bcel/generic/LocalVariableGen.java;;;BCEL-207;No changed lines, only additions
+c070c23750e4720fe44b92237b2b55559619e8ac;2015-02-20T23:52:39+0900;src/main/java/org/apache/bcel/generic/MethodGen.java;;;BCEL-207;No changed lines, only additions
+c070c23750e4720fe44b92237b2b55559619e8ac;2015-02-20T23:52:39+0900;src/test/java/org/apache/bcel/generic/MethodGenTestCase.java;;;BCEL-207;No changed lines, only additions
+1fdd06ce9f554eb3c0a5e9d3c1288cf039c88a90;2015-02-20T16:58:15+0900;src/main/java/org/apache/bcel/util/ClassPath.java;ca29e258b9d9f824ffc3fdda728303cb55b386a2;2010-01-11T05:06:47+0900;BCEL-176;
+67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36;2015-02-20T10:23:20+0900;src/main/java/org/apache/bcel/classfile/AnnotationEntry.java;;;BCEL-165;No changed lines, only additions
+67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36;2015-02-20T10:23:20+0900;src/main/java/org/apache/bcel/classfile/FieldOrMethod.java;da4ec29493d9497e9fc4b41910716613826530de;2006-07-11T10:57:19+0900;BCEL-165;
+67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36;2015-02-20T10:23:20+0900;src/main/java/org/apache/bcel/classfile/JavaClass.java;da4ec29493d9497e9fc4b41910716613826530de;2006-07-11T10:57:19+0900;BCEL-165;
+964c0c8fd6abdb4c32c050db3f129edef7232cbe;2015-02-05T23:46:49+0900;src/main/java/org/apache/bcel/classfile/ParameterAnnotations.java;;;BCEL-203;No changed lines, only additions
+964c0c8fd6abdb4c32c050db3f129edef7232cbe;2015-02-05T23:46:49+0900;src/main/java/org/apache/bcel/classfile/RuntimeInvisibleParameterAnnotations.java;a6d28b013f3c9b4d4c17c6020c9d72c919e4349d;2014-12-19T21:57:12+0900;BCEL-203;
+964c0c8fd6abdb4c32c050db3f129edef7232cbe;2015-02-05T23:46:49+0900;src/main/java/org/apache/bcel/classfile/RuntimeVisibleParameterAnnotations.java;25d3c6f1c061bb81bc384ac8cc05e72b57849cf4;2011-07-29T10:54:05+0900;BCEL-203;
+d2883e2ade18d07cb76b0bf99d1b9a0aa66afdb2;2015-02-05T06:53:42+0900;RELEASE-NOTES.txt;;;BCEL-194;Ignored file type
+d2883e2ade18d07cb76b0bf99d1b9a0aa66afdb2;2015-02-05T06:53:42+0900;src/changes/changes.xml;;;BCEL-194;No changed lines, only additions
+d2883e2ade18d07cb76b0bf99d1b9a0aa66afdb2;2015-02-05T06:53:42+0900;src/main/java/org/apache/bcel/generic/LocalVariableGen.java;d532ec1089fdfd05004f143c87b96ed036a9abbf;2006-03-15T20:31:56+0900;BCEL-194;
+8dab4e845ccbdb0a0f287c38ceafd7d15e417c06;2015-01-17T21:47:01+0900;src/main/java/org/apache/bcel/classfile/ConstantUtf8.java;;;BCEL-186;
+ae887bde4df5b1f61ff418635a51925d2d94aacc;2015-01-17T20:30:31+0900;src/main/java/org/apache/bcel/classfile/ConstantUtf8.java;596fb1c9f5c9ccb5115855cfd7ca43925289741e;2014-06-05T23:19:44+0900;BCEL-186;
+fbcd823d35677e12d3bc37db531f3f18cdb17535;2015-01-17T07:58:51+0900;src/changes/changes.xml;;;BCEL-186;No changed lines, only additions
+fbcd823d35677e12d3bc37db531f3f18cdb17535;2015-01-17T07:58:51+0900;src/main/java/org/apache/bcel/classfile/ConstantUtf8.java;fccd1a0ce4cd7a3b400fa04a6f0f380af57a2bcb;2013-05-12T02:34:32+0900;BCEL-186;
+75a8d8c69a3da99e6ab553b4f9947aac44af6928;2014-09-30T21:08:10+0900;src/changes/changes.xml;;;BCEL-181;No changed lines, only additions
+75a8d8c69a3da99e6ab553b4f9947aac44af6928;2014-09-30T21:08:10+0900;src/main/java/org/apache/bcel/util/ClassLoaderRepository.java;d532ec1089fdfd05004f143c87b96ed036a9abbf;2006-03-15T20:31:56+0900;BCEL-181;
+f896e6c9eb751b24de5637ab86731068fa0e2096;2014-07-29T05:33:34+0900;src/changes/changes.xml;;;BCEL-177;No changed lines, only additions
+f896e6c9eb751b24de5637ab86731068fa0e2096;2014-07-29T05:33:34+0900;src/main/java/org/apache/bcel/classfile/MethodParameters.java;142edb8043bc41401872204edb24ac6af36e7b35;2014-04-24T06:26:13+0900;BCEL-177;
+86081411f480dd6cf8c7cbca74b9b8fa87f87992;2014-04-23T23:26:40+0900;src/examples/JasminVisitor.java;;;BCEL-152;No changed lines, only additions
+86081411f480dd6cf8c7cbca74b9b8fa87f87992;2014-04-23T23:26:40+0900;src/site/xdoc/manual.xml;2d30047d07b492c01ee759e680594c16c7c83fbd;2001-11-26T23:00:51+0900;BCEL-152;
+fa9a90ca68c706a27da33eaf4eb06a562b354d21;2014-04-23T20:10:29+0900;src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java;0498f3cedc124735e391d3ed746fd9a8100edb9f;2009-12-05T03:16:34+0900;BCEL-174;
