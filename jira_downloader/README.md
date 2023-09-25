@@ -23,3 +23,38 @@ java 17.0.3.1 2022-04-22 LTS
 Java(TM) SE Runtime Environment (build 17.0.3.1+2-LTS-6)
 Java HotSpot(TM) 64-Bit Server VM (build 17.0.3.1+2-LTS-6, mixed mode, sharing)
 ```
+
+## コンパイル方法
+- Mainクラスを以下に書き換え
+```java:app/src/main/java/com/SZZ/app/Main.java
+package com.SZZ.app;
+
+public class Main {
+    public static void main(String[] args) {
+        // args = new String[4];
+		// args[0] = "-all";
+		// args[1] = "https://github.com/apache/commons-bcel.git";
+		// args[2] = "https://issues.apache.org/jira/projects/BCEL";
+		// args[3] = "BCEL";
+
+        
+        SZZApplication.saveJira(args[0]);
+        // long startTime = System.currentTimeMillis();
+        
+        // try {
+        //     SZZApplication.main(args);
+        // }
+        // catch (Exception e) {
+        //     e.printStackTrace();
+        // }
+        
+        // long endTime = System.currentTimeMillis();
+		// System.out.println("処理時間：" + (endTime - startTime) + " ms");
+    }
+}
+```
+
+- FatJarとしてコンパイルする
+```
+./gradlew shadowJar
+```
