@@ -8,18 +8,16 @@ public class Main {
 		// args[2] = "https://issues.apache.org/jira/projects/BCEL";
 		// args[3] = "BCEL";
 
+        long startTime = System.currentTimeMillis();
         
-        SZZApplication.saveJira(args[0]);
-        // long startTime = System.currentTimeMillis();
+        try {
+            SZZApplication.main(args);
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
         
-        // try {
-        //     SZZApplication.main(args);
-        // }
-        // catch (Exception e) {
-        //     e.printStackTrace();
-        // }
-        
-        // long endTime = System.currentTimeMillis();
-		// System.out.println("処理時間：" + (endTime - startTime) + " ms");
+        long endTime = System.currentTimeMillis();
+		System.out.println("処理時間：" + (endTime - startTime) + " ms");
     }
 }
